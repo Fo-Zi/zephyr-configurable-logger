@@ -8,5 +8,3 @@ manifest:
     - name: zephyr
       repo-path: zephyr
       revision: main
-  self:
-    path: .
