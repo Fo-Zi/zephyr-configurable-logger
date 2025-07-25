@@ -4,12 +4,11 @@
 #include <stddef.h>
 #include <stdint.h>
 
-typedef enum log_status_t{
-    LOG_STATUS_OK = 0,
-    LOG_STATUS_TIMEOUT_ERR,
-    
-
-}log_status_t;
+typedef enum log_result_t{
+    LOG_RESULT_OK = 0,
+    LOG_RESULT_TIMEOUT_ERR,
+    LOG_RESULT_TOTAL_NUM,
+}log_result_t;
 
 typedef enum log_section_t{
     LOG_SECTION_DATA,

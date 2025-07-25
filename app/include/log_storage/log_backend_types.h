@@ -5,6 +5,6 @@
 typedef struct log_backend_context_t log_backend_cxt_t;
 
 // Opaque handle - iterator handle
-typedef struct log_iterator_t log_iterator_t_t;
+typedef struct log_iterator_t log_iterator_t;
 
 #endif

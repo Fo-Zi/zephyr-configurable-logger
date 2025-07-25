@@ -1,0 +1,8 @@
+/ {
+    aliases {
+        imu = &lsm6ds3tr_c;
+        ledred = &led0;
+        led-green = &led1;
+        led-blue = &led2;
+    };
+};

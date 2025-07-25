@@ -10,7 +10,7 @@ typedef struct log_iterable_api_t{
         log_backend_cxt_t * backend_ctxt
     );
 
-    log_status_t (*next)(
+    log_result_t (*next)(
         log_backend_cxt_t * backend_ctxt,
         log_iterator_t * iter,
         log_entry_t * entry
